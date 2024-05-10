@@ -1,0 +1,128 @@
+body {
+    font-family: 'DieCunst', sans-serif !important;
+    width: 1440px;                                                
+
+}
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+header nav {
+    display: inline-block;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 50px;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.HeaderLogo{
+    margin-left: 100px;
+    margin-right: 830px;
+}
+.section1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+    height: 606px;
+    background-image: url("../img/img1.png");
+    background-size: cover;
+    background-position: center;
+    margin-left: 45px;
+}
+
+.Mainh1{
+    position: relative;
+    font-size: 80px;
+    left: 450px;
+    top: 300px;
+    color: white;
+}
+.Mainp{
+    position: relative;
+    top: 403px;
+    width: 300px;
+    left: 100px;
+    color: white;
+}
+
+.section2{
+    display: flex;
+    width: 235px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.Main2h2{
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+.Main2h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 200%;
+    
+}
+.Main2p1{
+    width: 235px;
+    margin-top: 20px;
+    word-spacing: 2.5px;
+}
+.section3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:flex-start;
+    margin-left: 160px;
+}
+
+.div1, .div2, .div3, .div4, .div5, .div6{
+    width: 286px;
+    display: flex;
+    flex-direction: column;
+}
+.div2, .div3, .div5, .div6{
+    margin-left: 30px;
+}
+.div3, .div6{
+    margin-right: 60px !important;
+}
+.section3h2{
+    padding-top: 25px;
+    word-spacing: 10px;
+}
+
+.section3img{
+    height: 195px;
+    width: 286px;
+    image-resolution: 286 195px;
+}
+main {
+    display: flex;
+    margin-top: 60px;
+}
+.section3p{
+    padding-top: 15px;
+    margin-bottom: 30px;
+    word-spacing: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
