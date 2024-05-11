@@ -114,8 +114,16 @@ main {
     word-spacing: 3px;
 }
 
-
-
+@media screen and (max-width: 1024px){
+    .HeaderImg{
+        display: block;
+        width: 20px;
+        height: 60px;
+    }
+    nav {
+        display: none;
+    }
+}
 
 
 
